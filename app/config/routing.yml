@@ -1,0 +1,8 @@
+learn_sf_blog:
+    resource: "@LearnSFBlogBundle/Resources/config/routing.xml"
+    prefix:   /
+
+# import routes from a controller class
+learn_sf_blog_about:
+    resource: "@LearnSFBlogBundle/Controller/AboutController.php"
+    type:     annotation
